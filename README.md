@@ -17,12 +17,15 @@ Developer
 ### Contact me!
 [<img src='https://user-images.githubusercontent.com/7431072/146361243-82991295-57b5-4ad6-885f-745e5043dbde.png' alt='linkedin' height='40'>](https://www.linkedin.com/in/ron-hasson/) 
 
+<br>
 <!--![GitHub stats](https://github-readme-stats.vercel.app/api?username=ronhasson&show_icons=true&count_private=true)  -->
-### Stats
+<details>	
+ <summary><b>⚡ Github Stats</b></summary>
+ 
 ![GitHub metrics](https://metrics.lecoq.io/ronhasson)  
 
-![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=ronhasson)  
-
+![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=ronhasson&date_format=j/n/Y)  
+   </details>
 <!--
 **ronhasson/ronhasson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
