@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-/play secret
+<img height="32" width="32" src="https://unpkg.com/simple-icons@v6/icons/linkedin.svg" />
 
 <!--
 **ronhasson/ronhasson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
