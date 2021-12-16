@@ -1,6 +1,27 @@
-### Hi there 👋
+## Hi there 👋, Im Ron Hasson
+<span>
+I'm a
+</span>
+<br>
+<p>
+<span>
+<!--![Typing SVG](https://readme-typing-svg-ron.herokuapp.com?color=%2336BCF7&size=28&vCenter=true&width=172&height=30&lines=JavaScript;Node.js;React.js;Vue.js;Unity;Web)] -->
+<img src="https://readme-typing-svg-ron.herokuapp.com?color=%2336BCF7&size=28&vCenter=true&width=172&lines=JavaScript;Node.js;React.js;Vue.js;Unity;Web"/>
+</span>
+ <br>
+<span>
+Developer
+</span>
+ </p>
 
-<img height="32" width="32" src="https://unpkg.com/simple-icons@v6/icons/linkedin.svg" />
+### Contact me!
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/ron-hasson/)  
+
+<!--![GitHub stats](https://github-readme-stats.vercel.app/api?username=ronhasson&show_icons=true&count_private=true)  -->
+### Stats
+![GitHub metrics](https://metrics.lecoq.io/ronhasson)  
+
+![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=ronhasson)  
 
 <!--
 **ronhasson/ronhasson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
