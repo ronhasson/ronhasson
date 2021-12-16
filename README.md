@@ -25,7 +25,7 @@ Developer
 <!--![GitHub metrics](https://metrics.lecoq.io/ronhasson)-->
 ![Metrics](https://metrics.lecoq.io/ronhasson?template=classic&achievements=1&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&config.timezone=Asia%2FJerusalem)
 
-![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=ronhasson&date_format=j/n/Y)  
+![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=ronhasson&theme=prussian&date_format=j/n/Y)  
    </details>
 <!--
 **ronhasson/ronhasson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
