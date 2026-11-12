@@ -14,11 +14,11 @@ feel free to [say hi on linkedin](https://www.linkedin.com/in/ron-hasson/).
 
 #### tower of hanoi
 
-![Tower of Hanoi, bottom to top — peg A: 4, 3, 2, 1, peg B: empty, peg C: empty](hanoi/board.svg?v=2)
+![Tower of Hanoi, bottom to top — peg A: 4, 3, 2, peg B: 1, peg C: empty](hanoi/board.svg?v=3)
 
 move the stack to **C**, one disc at a time. smaller discs go on top.
 
-[A → B](https://github.com/ronhasson/ronhasson/issues/new?title=%5BHanoi%5D+2+A-B&body=Submit+this+issue+to+play.+The+game+will+close+it+after+processing+your+turn.) · [A → C](https://github.com/ronhasson/ronhasson/issues/new?title=%5BHanoi%5D+2+A-C&body=Submit+this+issue+to+play.+The+game+will+close+it+after+processing+your+turn.)
+[A → C](https://github.com/ronhasson/ronhasson/issues/new?title=%5BHanoi%5D+3+A-C&body=Submit+this+issue+to+play.+The+game+will+close+it+after+processing+your+turn.) · [B → A](https://github.com/ronhasson/ronhasson/issues/new?title=%5BHanoi%5D+3+B-A&body=Submit+this+issue+to+play.+The+game+will+close+it+after+processing+your+turn.) · [B → C](https://github.com/ronhasson/ronhasson/issues/new?title=%5BHanoi%5D+3+B-C&body=Submit+this+issue+to+play.+The+game+will+close+it+after+processing+your+turn.)
 
 pick a link, submit the prefilled issue, then refresh to see the shared board.
 
