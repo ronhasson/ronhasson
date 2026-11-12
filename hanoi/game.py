@@ -10,7 +10,6 @@ from urllib.parse import urlencode
 HERE = Path(__file__).resolve().parent
 README = HERE.parent / "README.md"
 STATE = HERE / "state.json"
-BOARD = HERE / "board.svg"
 PEGS = "ABC"
 DISC_COUNT = 4
 START = [0] * DISC_COUNT
@@ -26,6 +25,11 @@ def stacks(positions):
         [disc for disc in range(DISC_COUNT, 0, -1) if positions[disc - 1] == peg]
         for peg in range(len(PEGS))
     ]
+
+
+def board_path(positions):
+    layout = "".join(PEGS[peg] for peg in positions)
+    return HERE / "boards" / f"{layout}.svg"
 
 
 def legal_moves(positions):
@@ -108,6 +112,7 @@ def render_board(positions):
 
 def render_readme(state):
     positions, revision = state["positions"], state["revision"]
+    image = board_path(positions).relative_to(README.parent).as_posix()
     description = ", ".join(
         f"peg {name}: {', '.join(map(str, discs)) if discs else 'empty'}"
         for name, discs in zip(PEGS, stacks(positions))
@@ -132,7 +137,7 @@ def render_readme(state):
         '',
         '#### tower of hanoi',
         '',
-        f'![Tower of Hanoi, bottom to top — {description}](hanoi/board.svg?v={revision})',
+        f'![Tower of Hanoi, bottom to top — {description}]({image})',
         '',
         prompt,
         '',
@@ -154,7 +159,9 @@ def save(state):
     README.write_text(
         f"{before}{start}\n{render_readme(state)}\n{end}{after}", encoding="utf-8"
     )
-    BOARD.write_text(render_board(state["positions"]), encoding="utf-8")
+    image = board_path(state["positions"])
+    image.parent.mkdir(exist_ok=True)
+    image.write_text(render_board(state["positions"]), encoding="utf-8")
     STATE.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8")
 
 
@@ -169,7 +176,7 @@ def handle_issue(state, issue):
 
     revision, command = match.groups()
     if int(revision) != state["revision"]:
-        return "someone played first! refresh the profile and pick a move from the current board."
+        return "that link was for an older board. refresh the profile and pick a current move."
 
     positions = legal_moves(state["positions"]).get(command)
     if positions is None:

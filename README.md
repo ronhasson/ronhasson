@@ -14,7 +14,7 @@ feel free to [say hi on linkedin](https://www.linkedin.com/in/ron-hasson/).
 
 #### tower of hanoi
 
-![Tower of Hanoi, bottom to top — peg A: 4, 3, 2, peg B: 1, peg C: empty](hanoi/board.svg?v=3)
+![Tower of Hanoi, bottom to top — peg A: 4, 3, 2, peg B: 1, peg C: empty](hanoi/boards/BAAA.svg)
 
 move the stack to **C**, one disc at a time. smaller discs go on top.
 
