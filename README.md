@@ -1,12 +1,12 @@
-### hey, i’m ron :)
+### Hey, I'm Ron :)
 
-i’m a full-stack developer. i like taking a rough idea and turning it into something people can use.
+I'm a full-stack developer. I like taking a rough idea and turning it into something people can use.
 
-when i’m not working, i make stuff i wish existed. ✨
+When I'm not working, I make stuff I wish existed. ✨
 
-sometimes it’s a *tool*, sometimes it’s a *toy*. i make some of it for myself and some of it for people i care about.
+Sometimes it's a tool, and sometimes it's a toy. I make some of it for myself and some of it for people I care about.
 
-feel free to [say hi on linkedin](https://www.linkedin.com/in/ron-hasson/).
+Feel free to [say hi on LinkedIn](https://www.linkedin.com/in/ron-hasson/).
 
 <details>
 <summary>🧩</summary>
