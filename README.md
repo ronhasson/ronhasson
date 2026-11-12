@@ -15,11 +15,11 @@ Feel free to [say hi on LinkedIn](https://www.linkedin.com/in/ron-hasson/).
 
 #### tower of hanoi
 
-![Tower of Hanoi, bottom to top — peg A: empty, peg B: empty, peg C: 4, 3, 2, 1](hanoi/boards/CCCC.svg)
+![Tower of Hanoi, bottom to top — peg A: 4, 3, 2, 1, peg B: empty, peg C: empty](hanoi/boards/AAAA.svg)
 
-**we did it!** ✨
+move the stack to **C**, one disc at a time. smaller discs go on top.
 
-[play again](https://github.com/ronhasson/ronhasson/issues/new?title=%5BHanoi%5D+22+reset&body=Submit+this+issue+to+play.+The+game+will+close+it+after+processing+your+turn.)
+[A → B](https://github.com/ronhasson/ronhasson/issues/new?title=%5BHanoi%5D+23+A-B&body=Submit+this+issue+to+play.+The+game+will+close+it+after+processing+your+turn.) · [A → C](https://github.com/ronhasson/ronhasson/issues/new?title=%5BHanoi%5D+23+A-C&body=Submit+this+issue+to+play.+The+game+will+close+it+after+processing+your+turn.)
 
 pick a link, submit the prefilled issue, then refresh to see the shared board.
 
