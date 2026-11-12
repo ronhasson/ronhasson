@@ -5,6 +5,10 @@ i’m a full-stack developer. i like taking a rough idea and turning it into som
 when i’m not working, i make stuff i wish existed. ✨
 
 sometimes it’s a *tool*, sometimes it’s a *toy*. i make some of it for myself and some of it for people i care about.
+
+feel free to [say hi on linkedin](https://www.linkedin.com/in/ron-hasson/).
+
+
 <!--
 **ronhasson/ronhasson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
