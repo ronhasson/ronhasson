@@ -132,9 +132,6 @@ def render_readme(state):
         else "move the stack to **C**, one disc at a time. smaller discs go on top."
     )
     return "\n".join((
-        '<details>',
-        '<summary>🧩 open the toolbox</summary>',
-        '',
         '#### tower of hanoi',
         '',
         f'![Tower of Hanoi, bottom to top — {description}]({image})',
@@ -144,8 +141,6 @@ def render_readme(state):
         " · ".join(links),
         '',
         'pick a link, submit the prefilled issue, then refresh to see the shared board.',
-        '',
-        '</details>',
     ))
 
 
@@ -157,7 +152,7 @@ def save(state):
         raise ValueError("The README must contain both Hanoi markers.")
 
     README.write_text(
-        f"{before}{start}\n{render_readme(state)}\n{end}{after}", encoding="utf-8"
+        f"{before}{start}\n\n{render_readme(state)}\n\n{end}{after}", encoding="utf-8"
     )
     image = board_path(state["positions"])
     image.parent.mkdir(exist_ok=True)

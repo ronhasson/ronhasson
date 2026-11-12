@@ -8,9 +8,10 @@ sometimes it’s a *tool*, sometimes it’s a *toy*. i make some of it for mysel
 
 feel free to [say hi on linkedin](https://www.linkedin.com/in/ron-hasson/).
 
-<!-- hanoi:start -->
 <details>
 <summary>🧩</summary>
+
+<!-- hanoi:start -->
 
 #### tower of hanoi
 
@@ -22,8 +23,9 @@ move the stack to **C**, one disc at a time. smaller discs go on top.
 
 pick a link, submit the prefilled issue, then refresh to see the shared board.
 
-</details>
 <!-- hanoi:end -->
+
+</details>
 
 <!--
 **ronhasson/ronhasson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
