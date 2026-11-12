@@ -10,7 +10,7 @@ feel free to [say hi on linkedin](https://www.linkedin.com/in/ron-hasson/).
 
 <!-- hanoi:start -->
 <details>
-<summary>🧩 open the toolbox</summary>
+<summary>🧩</summary>
 
 #### tower of hanoi
 
